@@ -11,7 +11,7 @@ public class DBConnection {
       try
         {
           Class.forName("oracle.jdbc.OracleDriver");
-          conn=DriverManager.getConnection("jdbc:oracle:thin:@//hp:1521/xe","system","root");
+          conn=DriverManager.getConnection("jdbc:oracle:thin:@//DESKTOP-K1G36F7:1521/XE","Rupesh","abc");
           System.out.println("Connection opened!");
         }
       catch(Exception ex)
